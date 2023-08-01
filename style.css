@@ -17,8 +17,23 @@ h3 {
 }
 
 /* Header */
+/* flexbox class. review flexbox course
+div and nav should be assigned to flexbox class */
+
 header {
+  width: 800px;
+  margin: auto;
   text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  align-self: center;
+
 }
 
 /* Containers */
@@ -37,6 +52,12 @@ article div {
   width: 100%;
 }
 
+.textalign {
+  flex-wrap: nowrap;
+  text-align: left;
+  margin: 10px 30px 10px;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
@@ -52,7 +73,8 @@ a:hover {
 }
 
 nav a {
-  padding-left: 20px;
+  margin: 5px;
+  padding-left: 15px;
 }
 
 /* Images */
