@@ -26,21 +26,12 @@ header {
   text-align: center;
 }
 
-.flexbox {
-  display: flex;
-  justify-content: center;
-}
-
-.item {
-  align-self: center;
-
-}
 
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 550px;
 }
 
 article {
@@ -49,18 +40,17 @@ article {
 
 article div {
   text-align: center;
-  width: 100%;
+  width: 90%;
 }
 
 .textalign {
-  flex-wrap: nowrap;
-  text-align: left;
-  margin: 10px 30px 10px;
+  text-align: center;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+  font-size: 14px;
 }
 
 /* Links */
@@ -81,12 +71,16 @@ nav a {
 img {
   width: 100%;
   max-width: 200px;
-  height: auto;
+  height: 50%;
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+}
+
+.image-resize {
+  width: 50%;
 }
 
 /* Footer */
@@ -98,3 +92,31 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+ul {
+  font-size: 14px;
+}
+
+.flexbox2 {
+  display: flex;
+  align-content: flex-start;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox3 {
+  display: flex;
+  width: 100%;
+}
+
+.item-1 {
+  align-self: center;
+}
+ .item-2 {
+  text-align: left;
+  margin: 10px 30px 10px;
+ }
